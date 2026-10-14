@@ -5,7 +5,7 @@ import XCTest
 import AppIntentsTesting
 
 @available(iOS 27.0, *)
-final class PawfeedIntentTests: XCTestCase {
+final class MoodlyIntentTests: XCTestCase {
     // Bundle ID ของ test คือ "<bundle ID ของ app>.uitests" จึงตัดท้ายออกก็ได้ bundle ID ของ app
     var definitions: IntentDefinitions {
         let testBundleID = Bundle(for: Self.self).bundleIdentifier ?? ""
@@ -18,19 +18,14 @@ final class PawfeedIntentTests: XCTestCase {
     }
 
     // --8<-- [start:test]
-    func testFindPetByName() async throws {
-        let pets = try await definitions.entities["PetEntity"].entities(matching: "Mochi")
-
-        XCTAssertFalse(pets.isEmpty)
-    }
-
-    func testFeedPetReturnsPet() async throws {
-        let mochi = try await definitions.entities["PetEntity"].entities(matching: "Mochi")[0]
-
+    func testAddEntryThenFindIt() async throws {
         // run intent ผ่านระบบจริงแบบเดียวกับ Siri และ Shortcuts
-        let result = try await definitions.intents["FeedPetIntent"].makeIntent(pet: mochi, food: "treat").run()
+        _ = try await definitions.intents["AddEntryIntent"]
+            .makeIntent(text: "Shipped the workshop app", mood: "great").run()
 
-        XCTAssertEqual(try result.value.name, "Mochi")
+        let found = try await definitions.entities["EntryEntity"].entities(matching: "workshop")
+
+        XCTAssertFalse(found.isEmpty)
     }
     // --8<-- [end:test]
 }

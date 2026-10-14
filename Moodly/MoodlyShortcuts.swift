@@ -3,22 +3,22 @@ import AppIntents
 // --8<-- [start:shortcuts]
 /// App Shortcuts ใช้ได้ทันทีหลังติดตั้ง ไม่ต้องให้ผู้ใช้สร้าง shortcut เอง
 /// ทุก phrase ต้องมี \(.applicationName)
-struct PawShortcuts: AppShortcutsProvider {
+struct MoodlyShortcuts: AppShortcutsProvider {
     static var appShortcuts: [AppShortcut] {
         AppShortcut(
-            intent: FeedPetIntent(),
+            intent: AddEntryIntent(),
             phrases: [
-                "Feed \(\.$pet) in \(.applicationName)",
-                "Feed my pet in \(.applicationName)",
+                "Add an entry in \(.applicationName)",
+                "Log a \(\.$mood) day in \(.applicationName)",
             ],
-            shortTitle: "Feed Pet",
-            systemImageName: "pawprint.fill"
+            shortTitle: "Add Entry",
+            systemImageName: "square.and.pencil"
         )
         AppShortcut(
-            intent: GetPetsIntent(),
-            phrases: ["How are my pets in \(.applicationName)"],
-            shortTitle: "My Pets",
-            systemImageName: "list.bullet"
+            intent: GetWeekIntent(),
+            phrases: ["How was my week in \(.applicationName)"],
+            shortTitle: "My Week",
+            systemImageName: "calendar"
         )
     }
 

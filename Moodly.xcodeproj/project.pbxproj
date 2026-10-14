@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4A0000000000000000000019 /* PawfeedWidgets.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4A0000000000000000000002 /* PawfeedWidgets.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4A0000000000000000000019 /* MoodlyWidgets.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4A0000000000000000000002 /* MoodlyWidgets.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -16,14 +16,14 @@
 			containerPortal = 4A000000000000000000001E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 4A000000000000000000000D;
-			remoteInfo = PawfeedWidgets;
+			remoteInfo = MoodlyWidgets;
 		};
 		4A000000000000000000001C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4A000000000000000000001E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 4A000000000000000000000C;
-			remoteInfo = Pawfeed;
+			remoteInfo = Moodly;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -34,7 +34,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				4A0000000000000000000019 /* PawfeedWidgets.appex in Embed Foundation Extensions */,
+				4A0000000000000000000019 /* MoodlyWidgets.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -42,20 +42,20 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4A0000000000000000000001 /* Pawfeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pawfeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A0000000000000000000002 /* PawfeedWidgets.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PawfeedWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A0000000000000000000003 /* PawfeedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PawfeedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A0000000000000000000001 /* Moodly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moodly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A0000000000000000000002 /* MoodlyWidgets.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MoodlyWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A0000000000000000000003 /* MoodlyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoodlyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		4A0000000000000000000004 /* Pawfeed */ = {
+		4A0000000000000000000004 /* Moodly */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Pawfeed;
+			path = Moodly;
 			sourceTree = "<group>";
 		};
-		4A0000000000000000000005 /* PawfeedWidgets */ = {
+		4A0000000000000000000005 /* MoodlyWidgets */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = PawfeedWidgets;
+			path = MoodlyWidgets;
 			sourceTree = "<group>";
 		};
 		4A0000000000000000000006 /* Shared */ = {
@@ -68,9 +68,9 @@
 			path = IntentParts;
 			sourceTree = "<group>";
 		};
-		4A0000000000000000000008 /* PawfeedUITests */ = {
+		4A0000000000000000000008 /* MoodlyUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = PawfeedUITests;
+			path = MoodlyUITests;
 			sourceTree = "<group>";
 		};
 		4A0000000000000000000009 /* Config */ = {
@@ -108,12 +108,12 @@
 		4A000000000000000000000A = {
 			isa = PBXGroup;
 			children = (
-				4A0000000000000000000004 /* Pawfeed */,
+				4A0000000000000000000004 /* Moodly */,
 				4A0000000000000000000006 /* Shared */,
 				4A0000000000000000000007 /* IntentParts */,
-				4A0000000000000000000005 /* PawfeedWidgets */,
+				4A0000000000000000000005 /* MoodlyWidgets */,
 				4A0000000000000000000009 /* Config */,
-				4A0000000000000000000008 /* PawfeedUITests */,
+				4A0000000000000000000008 /* MoodlyUITests */,
 				4A000000000000000000000B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -121,9 +121,9 @@
 		4A000000000000000000000B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4A0000000000000000000001 /* Pawfeed.app */,
-				4A0000000000000000000002 /* PawfeedWidgets.appex */,
-				4A0000000000000000000003 /* PawfeedUITests.xctest */,
+				4A0000000000000000000001 /* Moodly.app */,
+				4A0000000000000000000002 /* MoodlyWidgets.appex */,
+				4A0000000000000000000003 /* MoodlyUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -131,9 +131,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4A000000000000000000000C /* Pawfeed */ = {
+		4A000000000000000000000C /* Moodly */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4A0000000000000000000020 /* Build configuration list for PBXNativeTarget "Pawfeed" */;
+			buildConfigurationList = 4A0000000000000000000020 /* Build configuration list for PBXNativeTarget "Moodly" */;
 			buildPhases = (
 				4A000000000000000000000F /* Sources */,
 				4A0000000000000000000010 /* Frameworks */,
@@ -146,20 +146,20 @@
 				4A000000000000000000001B /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				4A0000000000000000000004 /* Pawfeed */,
+				4A0000000000000000000004 /* Moodly */,
 				4A0000000000000000000006 /* Shared */,
 				4A0000000000000000000007 /* IntentParts */,
 			);
-			name = Pawfeed;
+			name = Moodly;
 			packageProductDependencies = (
 			);
-			productName = Pawfeed;
-			productReference = 4A0000000000000000000001 /* Pawfeed.app */;
+			productName = Moodly;
+			productReference = 4A0000000000000000000001 /* Moodly.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4A000000000000000000000D /* PawfeedWidgets */ = {
+		4A000000000000000000000D /* MoodlyWidgets */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4A0000000000000000000021 /* Build configuration list for PBXNativeTarget "PawfeedWidgets" */;
+			buildConfigurationList = 4A0000000000000000000021 /* Build configuration list for PBXNativeTarget "MoodlyWidgets" */;
 			buildPhases = (
 				4A0000000000000000000013 /* Sources */,
 				4A0000000000000000000014 /* Frameworks */,
@@ -170,20 +170,20 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				4A0000000000000000000005 /* PawfeedWidgets */,
+				4A0000000000000000000005 /* MoodlyWidgets */,
 				4A0000000000000000000006 /* Shared */,
 				4A0000000000000000000007 /* IntentParts */,
 			);
-			name = PawfeedWidgets;
+			name = MoodlyWidgets;
 			packageProductDependencies = (
 			);
-			productName = PawfeedWidgets;
-			productReference = 4A0000000000000000000002 /* PawfeedWidgets.appex */;
+			productName = MoodlyWidgets;
+			productReference = 4A0000000000000000000002 /* MoodlyWidgets.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		4A000000000000000000000E /* PawfeedUITests */ = {
+		4A000000000000000000000E /* MoodlyUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4A0000000000000000000022 /* Build configuration list for PBXNativeTarget "PawfeedUITests" */;
+			buildConfigurationList = 4A0000000000000000000022 /* Build configuration list for PBXNativeTarget "MoodlyUITests" */;
 			buildPhases = (
 				4A0000000000000000000016 /* Sources */,
 				4A0000000000000000000017 /* Frameworks */,
@@ -195,13 +195,13 @@
 				4A000000000000000000001D /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				4A0000000000000000000008 /* PawfeedUITests */,
+				4A0000000000000000000008 /* MoodlyUITests */,
 			);
-			name = PawfeedUITests;
+			name = MoodlyUITests;
 			packageProductDependencies = (
 			);
-			productName = PawfeedUITests;
-			productReference = 4A0000000000000000000003 /* PawfeedUITests.xctest */;
+			productName = MoodlyUITests;
+			productReference = 4A0000000000000000000003 /* MoodlyUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -226,7 +226,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4A000000000000000000001F /* Build configuration list for PBXProject "Pawfeed" */;
+			buildConfigurationList = 4A000000000000000000001F /* Build configuration list for PBXProject "Moodly" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -240,9 +240,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4A000000000000000000000C /* Pawfeed */,
-				4A000000000000000000000D /* PawfeedWidgets */,
-				4A000000000000000000000E /* PawfeedUITests */,
+				4A000000000000000000000C /* Moodly */,
+				4A000000000000000000000D /* MoodlyWidgets */,
+				4A000000000000000000000E /* MoodlyUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -298,12 +298,12 @@
 /* Begin PBXTargetDependency section */
 		4A000000000000000000001B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4A000000000000000000000D /* PawfeedWidgets */;
+			target = 4A000000000000000000000D /* MoodlyWidgets */;
 			targetProxy = 4A000000000000000000001A /* PBXContainerItemProxy */;
 		};
 		4A000000000000000000001D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4A000000000000000000000C /* Pawfeed */;
+			target = 4A000000000000000000000C /* Moodly */;
 			targetProxy = 4A000000000000000000001C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -333,8 +333,8 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				PAWFEED_APP_GROUP = "group.$(PAWFEED_BUNDLE_ID)";
-				PAWFEED_BUNDLE_ID = "th.yidh26.pawfeed.$(DEVELOPMENT_TEAM:default=local)";
+				MOODLY_APP_GROUP = "group.$(MOODLY_BUNDLE_ID)";
+				MOODLY_BUNDLE_ID = "th.yidh26.moodly.$(DEVELOPMENT_TEAM:default=local)";
 			};
 			name = Debug;
 		};
@@ -355,22 +355,22 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
-				PAWFEED_APP_GROUP = "group.$(PAWFEED_BUNDLE_ID)";
-				PAWFEED_BUNDLE_ID = "th.yidh26.pawfeed.$(DEVELOPMENT_TEAM:default=local)";
+				MOODLY_APP_GROUP = "group.$(MOODLY_BUNDLE_ID)";
+				MOODLY_BUNDLE_ID = "th.yidh26.moodly.$(DEVELOPMENT_TEAM:default=local)";
 			};
 			name = Release;
 		};
 		4A0000000000000000000025 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = Config/Pawfeed.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Config/Moodly.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5UTY23TYW4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Config/Pawfeed-Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = Pawfeed;
+				INFOPLIST_FILE = "Config/Moodly-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Moodly;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -381,7 +381,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "$(PAWFEED_BUNDLE_ID)";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(MOODLY_BUNDLE_ID)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
@@ -395,14 +395,14 @@
 		4A0000000000000000000026 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = Config/Pawfeed.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Config/Moodly.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5UTY23TYW4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Config/Pawfeed-Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = Pawfeed;
+				INFOPLIST_FILE = "Config/Moodly-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Moodly;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -413,7 +413,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "$(PAWFEED_BUNDLE_ID)";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(MOODLY_BUNDLE_ID)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
@@ -427,21 +427,21 @@
 		4A0000000000000000000027 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = Config/PawfeedWidgets.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Config/MoodlyWidgets.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5UTY23TYW4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Config/PawfeedWidgets-Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = Pawfeed;
+				INFOPLIST_FILE = "Config/MoodlyWidgets-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Moodly;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "$(PAWFEED_BUNDLE_ID).widgets";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(MOODLY_BUNDLE_ID).widgets";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -456,21 +456,21 @@
 		4A0000000000000000000028 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = Config/PawfeedWidgets.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Config/MoodlyWidgets.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5UTY23TYW4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Config/PawfeedWidgets-Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = Pawfeed;
+				INFOPLIST_FILE = "Config/MoodlyWidgets-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Moodly;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "$(PAWFEED_BUNDLE_ID).widgets";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(MOODLY_BUNDLE_ID).widgets";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -490,7 +490,7 @@
 				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "$(PAWFEED_BUNDLE_ID).uitests";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(MOODLY_BUNDLE_ID).uitests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
@@ -498,7 +498,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Pawfeed;
+				TEST_TARGET_NAME = Moodly;
 			};
 			name = Debug;
 		};
@@ -510,7 +510,7 @@
 				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "$(PAWFEED_BUNDLE_ID).uitests";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(MOODLY_BUNDLE_ID).uitests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
@@ -518,14 +518,14 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Pawfeed;
+				TEST_TARGET_NAME = Moodly;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4A000000000000000000001F /* Build configuration list for PBXProject "Pawfeed" */ = {
+		4A000000000000000000001F /* Build configuration list for PBXProject "Moodly" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4A0000000000000000000023 /* Debug */,
@@ -534,7 +534,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4A0000000000000000000020 /* Build configuration list for PBXNativeTarget "Pawfeed" */ = {
+		4A0000000000000000000020 /* Build configuration list for PBXNativeTarget "Moodly" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4A0000000000000000000025 /* Debug */,
@@ -543,7 +543,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4A0000000000000000000021 /* Build configuration list for PBXNativeTarget "PawfeedWidgets" */ = {
+		4A0000000000000000000021 /* Build configuration list for PBXNativeTarget "MoodlyWidgets" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4A0000000000000000000027 /* Debug */,
@@ -552,7 +552,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4A0000000000000000000022 /* Build configuration list for PBXNativeTarget "PawfeedUITests" */ = {
+		4A0000000000000000000022 /* Build configuration list for PBXNativeTarget "MoodlyUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4A0000000000000000000029 /* Debug */,

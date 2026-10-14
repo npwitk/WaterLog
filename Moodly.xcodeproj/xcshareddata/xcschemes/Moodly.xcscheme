@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4A000000000000000000000C"
-               BuildableName = "Pawfeed.app"
-               BlueprintName = "Pawfeed"
-               ReferencedContainer = "container:Pawfeed.xcodeproj">
+               BuildableName = "Moodly.app"
+               BlueprintName = "Moodly"
+               ReferencedContainer = "container:Moodly.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4A000000000000000000000E"
-               BuildableName = "PawfeedUITests.xctest"
-               BlueprintName = "PawfeedUITests"
-               ReferencedContainer = "container:Pawfeed.xcodeproj">
+               BuildableName = "MoodlyUITests.xctest"
+               BlueprintName = "MoodlyUITests"
+               ReferencedContainer = "container:Moodly.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4A000000000000000000000C"
-               BuildableName = "Pawfeed.app"
-               BlueprintName = "Pawfeed"
-               ReferencedContainer = "container:Pawfeed.xcodeproj">
+               BuildableName = "Moodly.app"
+               BlueprintName = "Moodly"
+               ReferencedContainer = "container:Moodly.xcodeproj">
             </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4A000000000000000000000C"
-               BuildableName = "Pawfeed.app"
-               BlueprintName = "Pawfeed"
-               ReferencedContainer = "container:Pawfeed.xcodeproj">
+               BuildableName = "Moodly.app"
+               BlueprintName = "Moodly"
+               ReferencedContainer = "container:Moodly.xcodeproj">
             </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
