@@ -5,7 +5,7 @@ import XCTest
 import AppIntentsTesting
 
 @available(iOS 27.0, *)
-final class WaterLogIntentTests: XCTestCase {
+final class PawfeedIntentTests: XCTestCase {
     // Bundle ID ของ test คือ "<bundle ID ของ app>.uitests" จึงตัดท้ายออกก็ได้ bundle ID ของ app
     var definitions: IntentDefinitions {
         let testBundleID = Bundle(for: Self.self).bundleIdentifier ?? ""
@@ -18,21 +18,19 @@ final class WaterLogIntentTests: XCTestCase {
     }
 
     // --8<-- [start:test]
-    func testLogWaterReturnsDrink() async throws {
-        let logWater = definitions.intents["LogWaterIntent"]
+    func testFindPetByName() async throws {
+        let pets = try await definitions.entities["PetEntity"].entities(matching: "Mochi")
 
-        // run intent ผ่านระบบจริงแบบเดียวกับ Siri และ Shortcuts
-        let result = try await logWater.makeIntent(milliliters: 300, beverage: "tea").run()
-
-        XCTAssertEqual(try result.value.milliliters, 300)
+        XCTAssertFalse(pets.isEmpty)
     }
 
-    func testFindDrinkByName() async throws {
-        _ = try await definitions.intents["LogWaterIntent"].makeIntent(milliliters: 200, beverage: "coffee").run()
+    func testFeedPetReturnsPet() async throws {
+        let mochi = try await definitions.entities["PetEntity"].entities(matching: "Mochi")[0]
 
-        let drinks = try await definitions.entities["DrinkEntity"].entities(matching: "Coffee")
+        // run intent ผ่านระบบจริงแบบเดียวกับ Siri และ Shortcuts
+        let result = try await definitions.intents["FeedPetIntent"].makeIntent(pet: mochi, food: "treat").run()
 
-        XCTAssertFalse(drinks.isEmpty)
+        XCTAssertEqual(try result.value.name, "Mochi")
     }
     // --8<-- [end:test]
 }

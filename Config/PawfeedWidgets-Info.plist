@@ -7,7 +7,7 @@
 		<key>NSExtensionPointIdentifier</key>
 		<string>com.apple.widgetkit-extension</string>
 	</dict>
-	<key>WaterLogAppGroup</key>
-	<string>$(WATERLOG_APP_GROUP)</string>
+	<key>PawfeedAppGroup</key>
+	<string>$(PAWFEED_APP_GROUP)</string>
 </dict>
 </plist>

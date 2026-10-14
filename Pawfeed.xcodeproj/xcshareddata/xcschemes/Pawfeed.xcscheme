@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4A000000000000000000000C"
-               BuildableName = "WaterLog.app"
-               BlueprintName = "WaterLog"
-               ReferencedContainer = "container:WaterLog.xcodeproj">
+               BuildableName = "Pawfeed.app"
+               BlueprintName = "Pawfeed"
+               ReferencedContainer = "container:Pawfeed.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4A000000000000000000000E"
-               BuildableName = "WaterLogUITests.xctest"
-               BlueprintName = "WaterLogUITests"
-               ReferencedContainer = "container:WaterLog.xcodeproj">
+               BuildableName = "PawfeedUITests.xctest"
+               BlueprintName = "PawfeedUITests"
+               ReferencedContainer = "container:Pawfeed.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4A000000000000000000000C"
-               BuildableName = "WaterLog.app"
-               BlueprintName = "WaterLog"
-               ReferencedContainer = "container:WaterLog.xcodeproj">
+               BuildableName = "Pawfeed.app"
+               BlueprintName = "Pawfeed"
+               ReferencedContainer = "container:Pawfeed.xcodeproj">
             </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4A000000000000000000000C"
-               BuildableName = "WaterLog.app"
-               BlueprintName = "WaterLog"
-               ReferencedContainer = "container:WaterLog.xcodeproj">
+               BuildableName = "Pawfeed.app"
+               BlueprintName = "Pawfeed"
+               ReferencedContainer = "container:Pawfeed.xcodeproj">
             </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
