@@ -3,7 +3,7 @@ import AppIntents
 // --8<-- [start:intent]
 struct LogWaterIntent: AppIntent {
     static let title: LocalizedStringResource = "Log Water"
-    static let description = IntentDescription("Record a drink in Water Log.")
+    static let description = IntentDescription("Record a drink in My Drink.")
 
     @Parameter(title: "Amount (ml)", default: 250, inclusiveRange: (50, 1000))
     var milliliters: Int

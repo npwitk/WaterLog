@@ -19,8 +19,8 @@ nonisolated enum Beverage: String, Codable, CaseIterable, Sendable {
         case .water: "drop.fill"
         case .tea: "leaf.fill"
         case .coffee: "cup.and.saucer.fill"
-        case .milk: "carton.fill"
-        case .juice: "wineglass.fill"
+        case .milk: "mug.fill"
+        case .juice: "takeoutbag.and.cup.and.straw.fill"
         }
     }
 }

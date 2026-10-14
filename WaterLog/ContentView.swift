@@ -39,7 +39,7 @@ struct ContentView: View {
                     }
                 }
             }
-            .navigationTitle("Water Log")
+            .navigationTitle("My Drink")
             // ช่องค้นหาเดียวกับที่ SearchDrinksIntent ใส่คำค้นให้เมื่อสั่ง Siri
             .searchable(text: $navigator.searchText, prompt: "Search drinks")
             .sheet(item: $navigator.openDrink) { drink in
